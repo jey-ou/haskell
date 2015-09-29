@@ -21,4 +21,6 @@ There are also some shortcuts to access most usual commands:
 
 Additionally, ctrl+0 to ctrl+9 can be used to invoke user defined commands available through the Tools menu entry. These commands can be defined using the Tools->Configure Tools dialog. Note that the text "<fileName>" will be replaced by the name of the currently loaded file, and "<fileExt>" will be replaced by its extension. For instance, there is a default command to invoke GHC on the currently loaded file already defined as follows:
 
-:! ghc --make "<fileName><fileExt>" 
+```
+:! ghc --make "<fileName><fileExt>"
+```
